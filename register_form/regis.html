@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <form action="checkregister.php" method="post">
+        <h1>Registration</h1>
+        <div>
+            <label>Full Name</label>
+            <input type="text" name="fullname">
+            <label>Username</label>
+            <input type="text" name="username">
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="email" name="gmail">
+            <label>Phone Number</label>
+            <input type="number" name="phone">
+        </div>
+        <div>
+            <label>Password</label>
+            <input type="password" name="password">
+            <label>Comfirm Password</label>
+            <input type="password" name="confirm_pass">
+        </div>
+        <h1>Gender</h1>
+      
+            <label>
+                <input type="radio"  name="gender" value="nam">
+                Nam
+            </label>
+            <label>
+                <input type="radio"  name="gender" value="nu">
+                Nu
+            </label>
+            <label>
+                <input type="radio"  name="gender" value="khac">
+                Khong muon tiet lo
+            </label>
+        
+        <button type="submit" name="sumbit">Dang ky</button>
+    </form>
+
+</body>
+</html>
